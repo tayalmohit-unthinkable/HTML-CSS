@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h4 {
+  color: #333;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: left;
+  color: #2a9d8f;
+}
+
+h4 {
+  color: #264653;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Link Styling */
+a {
+  color: #2a9d8f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading and Spacing */
+.container h1 u {
+  color: #e76f51;
+}
+
+.container div {
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+/* Table Styling */
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 12px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+th {
+  background-color: #264653;
+  color: white;
+}
+
+td {
+  color: #555;
+}
+
+/* Form Styling */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e76f51;
+}
+
+/* Image Styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* List Styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}

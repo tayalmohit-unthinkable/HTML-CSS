@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f4f7f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 600;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="reset"] {
+    background-color: #6c757d;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #5a6268;
+  }
+  
+  .validation-message {
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+    display: none;
+  }
+  
